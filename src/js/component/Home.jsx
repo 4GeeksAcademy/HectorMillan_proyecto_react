@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar from "./Navbar.jsx"
-
-// 1. include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+import {Footer} from "./Footer.jsx"
+// 1. include images into your bundle
+
 
 //  2. create your first component with PascalCase name.
 const Home = () => {
@@ -18,11 +19,7 @@ const Home = () => {
 			<a href="#" className="btn btn-success">
 				If you see this green button... bootstrap is working...
 			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+			
 		</div>
 	);
 };
